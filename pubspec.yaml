@@ -1,0 +1,45 @@
+name: my_style_clothes
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  charts_flutter: ^0.8.1
+  flutter_svg: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/icons/
+
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+         - asset: assets/fonts/Roboto/Roboto-Italic.ttf
+           style: italic
+         - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+           weight: 600
+     - family: OpenSans
+       fonts:
+         - asset: assets/fonts/OpenSans/OpenSans-Regular.ttf
+         - asset: assets/fonts/OpenSans/OpenSans-Italic.ttf
+           style: italic
+         - asset: assets/fonts/OpenSans/OpenSans-Bold.ttf
+           weight: 600
+
+  # see https://flutter.dev/custom-fonts/#from-packages
